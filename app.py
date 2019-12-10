@@ -12,7 +12,7 @@ def cakes():
 
 @app.route('/hello/<name>')
 def hello(name):
-    if name == Nikij
+    if name == "Nikij":
         GPIO.output(17,GPIO.HIGH)
         GPIO.output(27,GPIO.HIGH)
         time.sleep(1)
