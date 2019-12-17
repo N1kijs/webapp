@@ -17,7 +17,6 @@ def hello(name):
         GPIO.output(27,GPIO.HIGH)
         time.sleep(1)
 
-
     return render_template('page.html', name=name)
 
 if __name__ == '__main__':
